@@ -2,425 +2,165 @@
 <html lang="pt-br">
 
 <head>
-  <!-- Meta tags Obrigatórias -->
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
-    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
-  <title>OTAN</title>
+    <!-- Estilização pessoal -->
+    <style>
+        .fonteConteudo {
+            font-size: 25px;
+        }
+    </style>
+
+    <title>OTAN Escola</title>
 </head>
 
-<header>
-  <ul class="nav nav-pills ;nav nav-pills nav-fill">
-    <li class="nav-item">
-      <a class="nav-link active" href="#">Países na OTAN</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="#">Link</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="#">Link</a>
-    </li>
-  </ul>
-  
-</header>
-<body>
-<br>
-  <div class="jumbotron jumbotron-fluid; p-3 mb-2 bg-primary text-white" >
-    <div class="container">
-      <h1 class="display-4">PAÍSES LIGADOS A OTAN</h1>
-      <p class="lead">Nesta pagina você pode ver o países ligados a OTAN</p>
-    </div>
-  </div>
+<body class="p-3">
 
-  <div class="container" >
-
-
-    <!-- Linha 1 -->
-    <div class="card-deck" >
-      <!-- Albania -->
-      <div class="card" style="width: 18rem;" >
-        <img class="card-img-top" src="/img/albania.png" alt="Albania" >
-        <div class="card-body" >
-          <h5 class="card-title">Albania </h5>
-          <p class="card-text">Adimissão : 01/04/2009 <br>
-            Capital : Tirana</p>
-          <a href="https://pt.wikipedia.org/wiki/Albania" class="btn btn-primary">Visitar</a>
+    <!-- HEADER -->
+    <nav style="background-color: #477cc6; padding: 0;" class="navbar navbar-expand-lg rounded">
+        <div class="container-fluid">
+            <a style="color: white;" class="navbar-brand" href="#">
+                <img src="/img/iconeOtan2.png" alt="Logo da OTAN"
+                    style="width: 150px; margin-top: 0; margin-bottom: 0;">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a style="color: white; font-size: 20px;" class="nav-link active" aria-current="page"
+                            href="/html/index.html">Início</a>
+                    </li>
+                    <li class="nav-item">
+                        <a style="color: white; font-size: 20px;" class="nav-link"
+                            href="/html/membrosOtan.html">Membros</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a style="color: white; font-size: 20px;" class="nav-link dropdown-toggle" href="#"
+                            id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true"
+                            aria-expanded="false">
+                            Ver mais
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="/html/fontes.html">Fontes de Pesquisa</a>
+                            <a class="dropdown-item" href="#">Outra ação</a>
+                            <a class="dropdown-item" href="#">Algo mais aqui</a>
+                        </div>
+                    </li>
+                </ul>
+                </li>
+                </ul>
+            </div>
         </div>
-      </div>
+    </nav>
 
-      <!-- Alemanha -->
-      <div class="card" style="width: 18rem;">
-        <img class="card-img-top" src="/img/alemanha.webp" alt="Alemanha">
-        <div class="card-body">
-          <h5 class="card-title">Alemanha</h5>
-          <p class="card-text">Adimissão : 24/05/1955 <br>
-            Capital : Berlim </p>
-          <a href="https://pt.wikipedia.org/wiki/Alemanha" class="btn btn-primary">Visitar</a>
+    <!-- Conteudo da página -->
+
+    <!-- O que é a Otan? -->
+    <div class="container-fluid">
+
+        <h2 class="p-3 mt-4 mb-1 text-left">O que é a Otan?</h2>
+
+        <div class="row p-3">
+            <p class="fonteConteudo col-7">
+                A Organização do Tratado do Atlântico Norte (Otan) é uma aliança militar internacional fundada durante a
+                Guerra Fria, mais precisamente no ano de 1949, com o objetivo de conter o avanço da União Soviética e
+                seus aliados. Os membros fundadores da Organização, isto é, as nações que estiveram presentes desde a
+                sua criação, são Bélgica, Canadá, Dinamarca, França, Islândia, Itália, Luxemburgo, Holanda, Noruega,
+                Portugal, Reino Unido e Estados Unidos.
+            </p>
+
+            <figure class="figure col-5">
+                <img class="figure-img img-fluid" src="/img/otan_e_pdv.png" alt="">
+
+                <figcaption class="figure-caption text-center">
+                    Imagem retirada de <a
+                        href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.muraldehistoria.com.br%2F2023%2F08%2Fa-otan-e-opacto-de-varsovia-duas-aliancas-militares-em-tempos-de-guerra-fria.html&psig=AOvVaw2AVS791waO6gFFE21WYe7y&ust=1756852971242000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCKiszsTRuI8DFQAAAAAdAAAAABAE">Mural
+                        de História</a>
+            </figure>
         </div>
-      </div>
 
-      <!-- Bélgica -->
-      <div class="card" style="width: 18rem;">
-        <img class="card-img-top" src="/img/Belgica.png" alt="Belgica">
-        <div class="card-body">
-          <h5 class="card-title">Belgica</h5>
-          <p class="card-text">Adimissão : 24/08/1949<br>
-            Capital : Bruxelas</p>
-          <a href="https://pt.wikipedia.org/wiki/B%C3%A9lgica" class="btn btn-primary">Visitar</a>
+        <!-- Objetivos da Otan -->
+        <h2 class="p-3 mt-5 mb-1 text-right">Objetivos da Otan</h2>
+
+        <div class="row p-3">
+
+            <figure class="figure col-5">
+                <img class="figure-img img-fluid" src="/img/otanCnn.webp" alt="">
+
+                <figcaption class="figure-caption text-center">
+                    Imagem retirada de <a
+                        href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.cnnbrasil.com.br%2Finternacional%2Fotan-pode-sobreviver-sem-apoio-dos-estados-unidos-dizem-analistas%2F&psig=AOvVaw1T-hze3iEPs4fCIiO1OPXM&ust=1756859976136000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCOCf2MrruI8DFQAAAAAdAAAAABAE">CNN Brasil</a>
+            </figure>
+
+            <p class="fonteConteudo col-7">
+                A Otan têm como principais objetivos a segurança política-militar dos países-membros. Essa segurança pode vir tanto por meios diplomáticos quanto por meios militares, sendo que a diplomacia é opção preferencial. Segundo GUITARRARA <em>"Todos os princípios e propósitos da Otan estão descritos em um documento chamado Conceitos Estratégicos, revisado e atualizado periodicamente conforme o contexto geopolítico e as demandas internas de seus membros."</em>
+            </p>
+
         </div>
-      </div>
 
-      <!-- Bulgária -->
-      <div class="card" style="width: 18rem;">
-        <img class="card-img-top" src="/img/Bulgária.png" alt="	Bulgária">
-        <div class="card-body">
-          <h5 class="card-title"> Bulgária</h5>
-          <p class="card-text">Adimissão : 29/03/2004<br>
-            Capital : Sófia</p>
-          <a href="https://pt.wikipedia.org/wiki/Bulg%C3%A1ria" class="btn btn-primary">Visitar</a>
+        <!-- Operações da Otan -->
+        <h2 class="p-3 mt-4 mb-1 text-left">Operações da Otan</h2>
+
+        <div class="row p-3">
+            <p class="fonteConteudo col-7">
+                Dentre as operações da Otan, podemos citar a <b>Missão da Otan no Iraque (2018 - atualidade)</b>, a <b>Operação Sea Guardian (2016 - atualidade)</b>, a <b>Guerra do Afeganistão (2001 - 2021)</b>, a <b>Guerra da Bósnia (1992 - 1995)</b> e a <b>Guerra do Kosovo (1998 - 1999)</b>. É importante ressaltar que nem todas as operações da Otan estão relacionadas a conflitos, podendo, inclusive, acontecerem por conta de desastres naturais ou eventos semelhantes.
+            </p>
+
+            <figure class="figure col-5">
+                <img class="figure-img img-fluid" src="/img/afeganistao.webp" alt="">
+
+                <figcaption class="figure-caption text-center">
+                    Imagem retirada de <a
+                        href="https://www.bbc.com/portuguese/internacional-57768118">BBC News Brasil</a>
+            </figure>
         </div>
-      </div>
 
+        <!-- Relação Brasil/Otan -->
+        <h2 class="p-3 mt-5 mb-1 text-right">Relação entre a Otan e o Brasil</h2>
 
-    </div>
-    <br>
+        <div class="row p-3">
 
-    <!-- Linha 2 -->
-    <div class="card-deck">
-      <!-- Canadá -->
+            <figure class="figure col-5">
+                <img class="figure-img img-fluid" src="/img/otanBrasil.webp" alt="">
 
-      <div class="card" style="width: 18rem;">
-        <img class="card-img-top" src="/img/canada.png" alt="	Canadá">
-        <div class="card-body">
-          <h5 class="card-title"> Canadá</h5>
-          <p class="card-text">Adimissão : 24/09/1949<br>
-            Capital : Ottawa</p>
-          </p>
-          <a href="https://pt.wikipedia.org/wiki/Canad%C3%A1" class="btn btn-primary">Visitar</a>
+                <figcaption class="figure-caption text-center">
+                    Imagem retirada de <a
+                        href="https://brasilescola.uol.com.br/geografia/otan.htm">Brasil Escola</a>
+            </figure>
+
+            <p class="fonteConteudo col-7">
+                O Brasil não faz parte da aliança, mas foi designado como um dos aliados prioritários extra-Otan no ano de 2019, o que acaba por conferir uma maior facilidade na aquisição de equipamentos militares da Organização.
+            </p>
+
         </div>
-      </div>
 
-      <!-- Chéquia -->
-      <div class="card" style="width: 18rem;">
-        <img class="card-img-top" src="/img/chequia.png" alt="Chéquia">
-        <div class="card-body">
-          <h5 class="card-title">Chéquia</h5>
-          <p class="card-text"> Adimissão : 12/03/1999 <br> Capital : Praga</p>
-          <a href="https://pt.wikipedia.org/wiki/Ch%C3%A9quia" class="btn btn-primary">Visitar</a>
-        </div>
-      </div>
+    </div><br>
 
-      <!-- Croácia -->
-      <div class="card" style="width: 18rem;">
-        <img class="card-img-top" src="/img/croacia.png" alt="Croácia">
-        <div class="card-body">
-          <h5 class="card-title">Croácia</h5>
-          <p class="card-text">Adimissão : 01/04/2009 <br> Capital : Zagrebe </p>
-          <a href="https://pt.wikipedia.org/wiki/Albania" class="btn btn-primary">Visitar</a>
-        </div>
-      </div>
+    <!-- Rodapé -->
+    <footer style="background-color: #e6f14ba4; padding: 5px; font-size: 22px;" class="rounded lead">
+        <p class="text-center"><b>Este site foi criado apenas como parte de um trabalho escolar. Não possuímos qualquer
+            relação com a Otan. <a href="https://www.nato.int/">Clique aqui</a> para ser redirecionado para o site
+            oficial da Otan.</p></b>
+    </footer>
 
-      <!-- 	Dinamarca -->
-      <div class="card" style="width: 18rem;">
-        <img class="card-img-top" src="/img/dinamarca.png" alt="Dinamarca">
-        <div class="card-body">
-          <h5 class="card-title">Dinamarca</h5>
-          <p class="card-text">Adimissão : 24/08/1949[c] <br> Capital : Copenhague </p>
-          <a href="https://pt.wikipedia.org/wiki/Albania" class="btn btn-primary">Visitar</a>
-        </div>
-      </div>
-    </div>
-    <br>
-
-    <!-- Linha 3 -->
-    <div class="card-deck">
-
-      <!-- Eslováquia -->
-      <div class="card" style="width: 18rem;">
-        <img class="card-img-top" src="/img/eslovaquia.png" alt="Eslováquia">
-        <div class="card-body">
-          <h5 class="card-title">Eslováquia</h5>
-          <p class="card-text">Adimissão : 29/03/2004 <br> Capital : Bratislava </p>
-          <a href="https://pt.wikipedia.org/wiki/Albania" class="btn btn-primary">Visitar</a>
-        </div>
-      </div>
-
-      <!-- Eslovénia -->
-      <div class="card" style="width: 18rem;">
-        <img class="card-img-top" src="/img/eslovenia.png" alt="Eslovénia">
-        <div class="card-body">
-          <h5 class="card-title">Eslovénia
-          </h5>
-          <p class="card-text">Adimissão : 29/03/2004 <br> Capital : Liubliana</p>
-          <a href="https://pt.wikipedia.org/wiki/Albania" class="btn btn-primary">Visitar</a>
-        </div>
-      </div>
-
-      <!-- Países Baixos -->
-      <div class="card" style="width: 18rem;">
-        <img class="card-img-top" src="/img/Países Baixos.webp" alt="	Países Baixos">
-        <div class="card-body">
-          <h5 class="card-title">Países Baixos</h5>
-          <p class="card-text">Adimissão :24/08/1949 <br> Capital :Amesterdão </p>
-          <a href="https://pt.wikipedia.org/wiki/Pa%C3%ADses_Baixos" class="btn btn-primary">Visitar</a>
-        </div>
-      </div>
-
-      <!-- Polônia -->
-      <div class="card" style="width: 18rem;">
-        <img class="card-img-top" src="/img/Polónia.png" alt="Polônia">
-        <div class="card-body">
-          <h5 class="card-title">Polônia</h5>
-          <p class="card-text">Adimissão :12/03/1999 <br> Capital :Varsóvia </p>
-          <a href="https://pt.wikipedia.org/wiki/Pol%C3%B4nia" class="btn btn-primary">Visitar</a>
-        </div>
-      </div>
-
-    </div>
-    <br>
-
-    <!-- Linha 4 -->
-    <div class="card-deck">
-
-      <!-- França -->
-      <div class="card" style="width: 18rem;">
-        <img class="card-img-top" src="/img/França.webp" alt="França">
-        <div class="card-body">
-          <h5 class="card-title">França</h5>
-          <p class="card-text">Adimissão : 24/08/1949 <br> Capital : Paris</p>
-          <a href="https://pt.wikipedia.org/wiki/Finl%C3%A2ndia" class="btn btn-primary">Visitar</a>
-        </div>
-      </div>
-
-      <!-- Sérvia -->
-      <div class="card" style="width: 18rem;">
-        <img class="card-img-top" src="/img/Suécia.webp" alt="Suécia">
-        <div class="card-body">
-          <h5 class="card-title ">Suécia</h5>
-          <p class="card-text">Adimissão :07/03/2024 <br> Capital : Estocolmo </p>
-          <a href="https://pt.wikipedia.org/wiki/Su%C3%A9cia" class="btn btn-primary">Visitar</a>
-        </div>
-      </div>
-
-      <!-- Montenegro -->
-      <div class="card" style="width: 18rem;">
-        <img class="card-img-top" src="/img/Montenegro.png" alt="Montenegro">
-        <div class="card-body">
-          <h5 class="card-title">Montenegro</h5>
-          <p class="card-text">Adimissão :05/06/2017 <br> Capital :Podgoritza </p>
-          <a href="https://pt.wikipedia.org/wiki/Montenegro" class="btn btn-primary">Visitar</a>
-        </div>
-      </div>
-
-      <!-- Noruega -->
-      <div class="card" style="width: 18rem;">
-        <img class="card-img-top" src="/img/Noruega.png" alt="Noruega">
-        <div class="card-body">
-          <h5 class="card-title">Noruega</h5>
-          <p class="card-text">Adimissão :24/08/1949 <br> Capital :Oslo </p>
-          <a href="https://pt.wikipedia.org/wiki/Noruega" class="btn btn-primary">Visitar</a>
-        </div>
-      </div>
-
-    </div>
-    <br>
-
-    <!-- Linha 5 -->
-    <div class="card-deck">
-      <!-- Portugal -->
-      <div class="card" style="width: 18rem;">
-        <img class="card-img-top" src="/img/Portugal.webp" alt="Portugal">
-        <div class="card-body">
-          <h5 class="card-title">Portugal</h5>
-          <p class="card-text">Adimissão :24/08/1949 <br> Capital :Lisboa </p>
-          <a href="https://pt.wikipedia.org/wiki/Pol%C3%B4nia" class="btn btn-primary">Visitar</a>
-        </div>
-      </div>
-
-      <!-- Reino Unido -->
-      <div class="card" style="width: 18rem;">
-        <img class="card-img-top" src="/img/Reino unido.webp" alt="Reino Unido">
-        <div class="card-body">
-          <h5 class="card-title">Reino Unido</h5>
-          <p class="card-text">Adimissão :24/08/1949 <br> Capital :Londres </p>
-          <a href="https://pt.wikipedia.org/wiki/Reino_Unido" class="btn btn-primary">Visitar</a>
-        </div>
-      </div>
-
-      <!-- Romênia -->
-      <div class="card" style="width: 18rem;">
-        <img class="card-img-top" src="/img/Romênia.png" alt="Romênia">
-        <div class="card-body">
-          <h5 class="card-title">Romênia</h5>
-          <p class="card-text">Adimissão :29/03/2004 <br> Capital :Bucareste </p>
-          <a href="https://pt.wikipedia.org/wiki/Rom%C3%AAnia" class="btn btn-primary">Visitar</a>
-        </div>
-      </div>
-
-      <!-- Turquia -->
-      <div class="card" style="width: 18rem;">
-        <img class="card-img-top" src="/img/Turquia.webp" alt="Turquia">
-        <div class="card-body">
-          <h5 class="card-title">Turquia</h5>
-          <p class="card-text">Adimissão :18/02/1952 <br> Capital :Ancara </p>
-          <a href="https://pt.wikipedia.org/wiki/Turquia" class="btn btn-primary">Visitar</a>
-        </div>
-      </div>
-    </div>
-    <br>
-
-    <!-- Linha 6 -->
-    <div class="card-deck">
-
-      <!-- Letônia -->
-      <div class="card" style="width: 18rem;">
-        <img class="card-img-top" src="/img/letonia.png" alt="Letônia">
-        <div class="card-body">
-          <h5 class="card-title">Letônia</h5>
-          <p class="card-text">Adimissão : 29/03/2004 <br> Capital : Riga</p>
-          <a href="https://pt.wikipedia.org/wiki/Let%C3%B4nia" class="btn btn-primary">Visitar</a>
-        </div>
-      </div>
-
-      <!-- Lituânia -->
-      <div class="card" style="width: 18rem;">
-        <img class="card-img-top" src="/img/lituania.png" alt=" ">
-        <div class="card-body">
-          <h5 class="card-title">Lituânia</h5>
-          <p class="card-text">Adimissão :29/03/2004 <br> Capital :Vilnius </p>
-          <a href="https://pt.wikipedia.org/wiki/Litu%C3%A2nia" class="btn btn-primary">Visitar</a>
-        </div>
-      </div>
-
-      <!-- Luxemburgo -->
-      <div class="card" style="width: 18rem;">
-        <img class="card-img-top" src="/img/Luxemburgo.png" alt="Luxemburgo">
-        <div class="card-body">
-          <h5 class="card-title">Luxemburgo</h5>
-          <p class="card-text">Adimissão :24/08/1949 <br> Capital :Luxemburgo </p>
-          <a href="https://pt.wikipedia.org/wiki/Luxemburgo" class="btn btn-primary">Visitar</a>
-        </div>
-      </div>
-
-      <!-- Macedónia do Norte -->
-      <div class="card" style="width: 18rem;">
-        <img class="card-img-top" src="/img/Macedónia do Norte.png" alt="	Macedónia do Norte ">
-        <div class="card-body">
-          <h5 class="card-title">Macedónia do Norte</h5>
-          <p class="card-text">Adimissão :27/03/2020 <br> Capital :Escópia </p>
-          <a href="https://pt.wikipedia.org/wiki/Maced%C3%B3nia_do_Norte" class="btn btn-primary">Visitar</a>
-        </div>
-      </div>
-
-    </div>
-    <br>
-
-    <!-- Linha 7 -->
-    <div class="card-deck">
-      <!-- Espanha -->
-      <div class="card" style="width: 18rem;">
-        <img class="card-img-top" src="/img/espanha.webp" alt="Espanha">
-        <div class="card-body">
-          <h5 class="card-title">Espanha</h5>
-          <p class="card-text">Adimissão : 30/05/1982 <br> Capital : Madrid</p>
-          <a href="https://pt.wikipedia.org/wiki/Espanha" class="btn btn-primary">Visitar</a>
-        </div>
-      </div>
-
-      <!-- Estados Unidos-->
-      <div class="card" style="width: 18rem;">
-        <img class="card-img-top" src="/img/EUA.webp" alt="Estados Unidos">
-        <div class="card-body">
-          <h5 class="card-title">Estados Unidos</h5>
-          <p class="card-text">Adimissão : 24/08/1949 <br> Capital : Washington, D.C.</p>
-          <a href="https://pt.wikipedia.org/wiki/Estados_Unidos" class="btn btn-primary">Visitar</a>
-        </div>
-      </div>
-
-      <!-- Estonia -->
-      <div class="card" style="width: 18rem;">
-        <img class="card-img-top" src="/img/Estonia.png" alt="Estonia">
-        <div class="card-body">
-          <h5 class="card-title">Estonia</h5>
-          <p class="card-text">Adimissão : 29/03/2004 <br> Capital : Tallinn</p>
-          <a href="https://pt.wikipedia.org/wiki/Est%C3%B3nia" class="btn btn-primary">Visitar</a>
-        </div>
-      </div>
-
-      <!-- Finlândia -->
-      <div class="card" style="width: 18rem;">
-        <img class="card-img-top" src="/img/Finlandia.png" alt="Finlândia">
-        <div class="card-body">
-          <h5 class="card-title">Finlândia</h5>
-          <p class="card-text">Adimissão : 04/08/2023 <br> Capital : Helsinque</p>
-          <a href="https://pt.wikipedia.org/wiki/Finl%C3%A2ndia" class="btn btn-primary">Visitar</a>
-        </div>
-      </div>
-    </div>
-    <br>
-
-    <!-- linha 8 -->
-    <div class="card-deck">
-
-      <!-- Grécia -->
-      <div class="card" style="width: 18rem;">
-        <img class="card-img-top" src="/img/gracia.png" alt="Grécia">
-        <div class="card-body">
-          <h5 class="card-title">Grécia</h5>
-          <p class="card-text">Adimissão : 18/02/1952 <br> Capital : Atenas</p>
-          <a href="https://pt.wikipedia.org/wiki/Gr%C3%A9cia" class="btn btn-primary">Visitar</a>
-        </div>
-      </div>
-
-      <!-- Hungria -->
-      <div class="card" style="width: 18rem;">
-        <img class="card-img-top" src="/img/hungria.webp" alt="Hungria">
-        <div class="card-body">
-          <h5 class="card-title">Hungria</h5>
-          <p class="card-text">Adimissão : 12/03/1999 <br> Capital : Budapeste</p>
-          <a href="https://pt.wikipedia.org/wiki/Hungria" class="btn btn-primary">Visitar</a>
-        </div>
-      </div>
-
-      <!-- Islândia -->
-      <div class="card" style="width: 18rem;">
-        <img class="card-img-top" src="/img/Islandia.png" alt="Islândia">
-        <div class="card-body">
-          <h5 class="card-title">Islândia</h5>
-          <p class="card-text">Adimissão : 24/08/1949 <br> Capital : Reiquiavique</p>
-          <a href="https://pt.wikipedia.org/wiki/Isl%C3%A2ndia" class="btn btn-primary">Visitar</a>
-        </div>
-      </div>
-
-      <!-- Itália -->
-      <div class="card" style="width: 18rem;">
-        <img class="card-img-top" src="/img/italia.webp" alt="Itália">
-        <div class="card-body">
-          <h5 class="card-title">Itália</h5>
-          <p class="card-text">Adimissão : 24/08/1949 <br> Capital : Roma</p>
-          <a href="https://pt.wikipedia.org/wiki/It%C3%A1lia" class="btn btn-primary">Visitar</a>
-        </div>
-      </div>
-    </div>
-    <br>
-
-  </div>
-
-  <!-- JavaScript (Opcional) -->
-  <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-    crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
-    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-    crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
-    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
-    crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
